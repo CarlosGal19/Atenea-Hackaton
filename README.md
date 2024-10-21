@@ -1,6 +1,6 @@
-# Metis Iris CiberSeguridad
+# Atenea Iris Hackaton Virtual
 
-Este es el proyecto **Metis Iris CiberSeguridad**, desarrollado por [Carlos Galindo](https://github.com/CarlosGal19), [Jorge Fraidez](https://github.com/Jorge-Fraidez), [Sofia Campos](https://github.com/SofiaCamposH), [Maricruz Torres](https://github.com/Maricruz1900) y [Fernanda Rodríguez](https://github.com/Mafer-Rodriguez) para el Hackathon Virtual. Este repositorio contiene el código fuente de las aplicaciones desarrolladas en **React Native y React**, así
+Este es el proyecto **ATENEA Iris CiberSeguridad**, desarrollado por [Carlos Galindo](https://github.com/CarlosGal19), [Jorge Fraidez](https://github.com/Jorge-Fraidez), [Sofia Campos](https://github.com/SofiaCamposH), [Maricruz Torres](https://github.com/Maricruz1900) y [Fernanda Rodríguez](https://github.com/Mafer-Rodriguez) para el Hackathon Virtual. Este repositorio contiene el código fuente de las aplicaciones desarrolladas en **React Native y React**, así
 como de los canisters de **Motoko y RUST**.
 
 ## Requisitos
@@ -20,7 +20,7 @@ Para clonar este repositorio, sigue estos pasos:
 2. Ejecuta el siguiente comando:
 
    ```bash
-   git clone https://github.com/CarlosGal19/Metis-Hackaton
+   git clone https://github.com/CarlosGal19/Atenea-Hackaton
 
 3. Navega a la carpeta generada
 
