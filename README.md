@@ -1,7 +1,7 @@
-# Atenea Iris CiberSeguridad
+# Metis Iris CiberSeguridad
 
-Este es el proyecto **Atenea Iris CiberSeguridad**, desarrollado por [Carlos Galindo](https://github.com/CarlosGal19), [Jorge Fraidez](https://github.com/Jorge-Fraidez), [Sofia Campos](https://github.com/SofiaCamposH), [Maricruz Torres](https://github.com/Maricruz1900) y [Fernanda Rodríguez](https://github.com/Mafer-Rodriguez) para la Hackathon de Ciberseguridad. Este repositorio contiene el código fuente de las aplicaciones desarrolladas en **React Native y React**, así
-como de los canister de **Rust y Motoko**.
+Este es el proyecto **Metis Iris CiberSeguridad**, desarrollado por [Carlos Galindo](https://github.com/CarlosGal19), [Jorge Fraidez](https://github.com/Jorge-Fraidez), [Sofia Campos](https://github.com/SofiaCamposH), [Maricruz Torres](https://github.com/Maricruz1900) y [Fernanda Rodríguez](https://github.com/Mafer-Rodriguez) para la Hackathon Virtual. Este repositorio contiene el código fuente de las aplicaciones desarrolladas en **React Native y React**, así
+como de los canisters de **Motoko y RUST**.
 
 ## Requisitos
 
@@ -11,7 +11,6 @@ Antes de comenzar, asegúrate de tener instaladas las siguientes herramientas:
 - [Git](https://git-scm.com/)
 - [Expo CLI](https://docs.expo.dev/get-started/installation/)
 - [DFX](https://internetcomputer.org/docs/current/developer-docs/getting-started/install/) (version 24)
-- [Cargo](https://doc.rust-lang.org/cargo/)
 
 ## Clonar el Repositorio
 
@@ -21,12 +20,12 @@ Para clonar este repositorio, sigue estos pasos:
 2. Ejecuta el siguiente comando:
 
    ```bash
-   git clone https://github.com/SofiaCamposH/ATENEA-IRIS
+   git clone https://github.com/CarlosGal19/Metis-Hackaton
 
 3. Navega a la carpeta generada
 
    ```bash
-   cd ATENEA-IRIS
+   cd MetisHackaton
 
 3. Instala las dependencias globales
 
@@ -56,14 +55,14 @@ Para clonar este repositorio, sigue estos pasos:
    ```bash
    cd ../react-dashboard
    npm install
-   dfx generate backend network nlp qrcode vectordb
+   dfx generate backend qr
 
 8. Navega a la carpeta react-native-app e instala las dependencias locales
 
    ```bash
    cd ../react-native-app
    npm install
-   dfx generate backend
+   dfx generate backend qrcode
 
 9. Navega a la raíz del proyecto e inicia la réplica de dfx
 
@@ -71,15 +70,12 @@ Para clonar este repositorio, sigue estos pasos:
     cd ../../
     dfx start --background --clean
 
-10. Obten el id del canister backend, internet_identity, internet_identity_middleware, qrcode, newtwork y nlp
+10. Obten el id del canister backend, internet_identity, internet_identity_middleware y qrcode
 
     ```bash
     dfx canister id backend
     dfx canister id internet_identity
     dfx canister id internet_identity_middleware
-    dfx canister id qrcode
-    dfx canister id newtwork
-    dfx canister id nlp
 
    Los IDs serán mostrados en el orden de ejecución
 
@@ -103,9 +99,7 @@ Para clonar este repositorio, sigue estos pasos:
    Añade lo siguiente
   ```bash
    VITE_CANISTER_ID_BACKEND='BACKEND_CANISTER_ID'
-   VITE_CANISTER_ID_NETWORK='NETWORK_CANISTER_ID'
    VITE_CANISTER_ID_QRCODE='QRCODE_CANISTER_ID'
-   VITE_CANISTER_ID_NLP='NLP_CANISTER_ID'
    VITE_REACT_APP_INTERNET_COMPUTER_PROVIDER='INTERNET_IDENTITY_CANISTER_ID.localhost:4943/'
   ```
 
@@ -121,7 +115,8 @@ Para clonar este repositorio, sigue estos pasos:
    EXPO_PUBLIC_INTERNET_IDENTITY_MIDDLEWARE_URL='TU_URL_DE_TUNNEL/?canisterId=INTERNET_IDENTITY_MIDDLEWARE_CANISTER_ID'
    EXPO_PUBLIC_APP_LINK="exp://173.16.16.49:8081" (o url generada por expo)
    DFX_NETWORK="local"
-   BACKEND_CANISTER_ID="BACKEND_CANISTER_ID"
+   BACKEND_CANISTER_ID="BACKEND_CANISTER_ID",
+   QRCODE_CANISTER_ID="QRCODE_CANISTER_ID"
    ```
 
 14. Vuelve a la raíz del proyecto y despliega el proyecto
