@@ -1,6 +1,6 @@
 # Metis Iris CiberSeguridad
 
-Este es el proyecto **Metis Iris CiberSeguridad**, desarrollado por [Carlos Galindo](https://github.com/CarlosGal19), [Jorge Fraidez](https://github.com/Jorge-Fraidez), [Sofia Campos](https://github.com/SofiaCamposH), [Maricruz Torres](https://github.com/Maricruz1900) y [Fernanda Rodríguez](https://github.com/Mafer-Rodriguez) para la Hackathon Virtual. Este repositorio contiene el código fuente de las aplicaciones desarrolladas en **React Native y React**, así
+Este es el proyecto **Metis Iris CiberSeguridad**, desarrollado por [Carlos Galindo](https://github.com/CarlosGal19), [Jorge Fraidez](https://github.com/Jorge-Fraidez), [Sofia Campos](https://github.com/SofiaCamposH), [Maricruz Torres](https://github.com/Maricruz1900) y [Fernanda Rodríguez](https://github.com/Mafer-Rodriguez) para el Hackathon Virtual. Este repositorio contiene el código fuente de las aplicaciones desarrolladas en **React Native y React**, así
 como de los canisters de **Motoko y RUST**.
 
 ## Requisitos
