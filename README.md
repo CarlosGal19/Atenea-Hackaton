@@ -37,7 +37,7 @@ El canister de Motoko (backend) y el dashboard de react ya se encuentran en Main
   npm install
    ```
 
-2.- Corre el proyecto
+3.- Corre el proyecto
 
    ```bash
   npx expo start
