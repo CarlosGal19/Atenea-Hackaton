@@ -160,3 +160,27 @@ Para clonar este repositorio, sigue estos pasos:
 
     ```bash
     npx expo start
+
+## Propuesta de Valor:
+
+Nuestra propuesta de valor radica en ofrecer transparencia, trazabilidad e inmutabilidad en la elaboración de reportes policiales, además de optimizar el tiempo dedicado a esta tarea. Nuestro sistema facilita la obtención de estadísticas precisas y actualizadas, brindando una valiosa herramienta para la toma de decisiones estratégicas en materia de seguridad pública.
+
+## Público Objetivo:
+
+Nuestro público objetivo se compone de diversas corporaciones policiales, incluyendo policías municipales, estatales y federales, así como empresas privadas del sector de seguridad.
+
+## Relación con los Clientes:
+
+Mantendremos una estrecha relación con nuestros clientes a través de un servicio de atención al cliente personalizado y un foro de soporte técnico. Nuestro objetivo es garantizar la satisfacción total de nuestros usuarios y brindarles asistencia en todo momento.
+
+## Fuentes de Ingreso:
+
+Nuestras principales fuentes de ingreso serán la venta de licencias de uso de nuestro sistema y el desarrollo de soluciones a la medida para satisfacer las necesidades específicas de cada cliente. Asimismo, exploraremos oportunidades de financiamiento a través de donaciones.
+
+## Recursos Clave:
+
+Nuestros recursos clave incluyen el talento humano especializado en tecnología y seguridad, la infraestructura tecnológica necesaria para el desarrollo y operación del sistema, y los recursos financieros para llevar a cabo nuestras actividades.
+
+## Socios Clave:
+
+Para garantizar la implementación exitosa de nuestra solución, estableceremos alianzas estratégicas con corporaciones policiales a nivel municipal, estatal y federal. Además, exploraremos la posibilidad de colaborar con compañías telefónicas para desarrollar planes que integren el uso de nuestro sistema y optimicen la comunicación y el intercambio de información.
