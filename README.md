@@ -12,6 +12,37 @@ Antes de comenzar, asegúrate de tener instaladas las siguientes herramientas:
 - [Expo CLI](https://docs.expo.dev/get-started/installation/)
 - [DFX](https://internetcomputer.org/docs/current/developer-docs/getting-started/install/) (version 24)
 
+## Probar proyecto desplegado en Mainet
+
+El canister de Motoko (backend) y el dashboard de react ya se encuentran en Mainet
+
+- [Backend](https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=fvkqz-2qaaa-aaaap-akphq-cai)
+- [Frontend](https://hix6r-jyaaa-aaaap-akpia-cai.icp0.io/)
+- Para desplegar la aplicación de React Native y crear reportes desde la App:
+
+1.- Clonar el repositorio
+   
+   ```bash
+   git clone https://github.com/CarlosGal19/Atenea-Hackaton
+   ```
+2.- Navega a la carpeta de React Native
+
+   ```bash
+  cd Atene-Hackaton/src/react-native-app
+   ```
+
+2.- Instala las dependencias locales
+
+   ```bash
+  npm install
+   ```
+
+2.- Corre el proyecto
+
+   ```bash
+  npx expo start
+   ```
+
 ## Clonar el Repositorio
 
 Para clonar este repositorio, sigue estos pasos:
