@@ -42,6 +42,15 @@
             "frontend": {
                 "entrypoint": "src/internet_identity_middleware/build/index.html"
             }
+        },
+        "qrcode": {
+            "candid": "src/qrcode/qrcode.did",
+            "package": "qrcode",
+            "type": "rust",
+            "declarations": {
+                "node_compatibility": false,
+                "output": "src/declarations/qrcode"
+            }
         }
     },
     "defaults": {

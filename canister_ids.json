@@ -4,5 +4,8 @@
   },
   "network": {
     "ic": "hpwyf-eaaaa-aaaap-akpiq-cai"
+  },
+  "qrcode": {
+    "ic": "hutea-6yaaa-aaaap-akpka-cai"
   }
 }
